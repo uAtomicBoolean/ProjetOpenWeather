@@ -1,0 +1,463 @@
+/* ######################## */
+/* ---       HEAD       --- */
+/* ######################## */
+
+body{
+	margin: 0;
+	font: bold 13px Arial;
+}
+
+header{
+	background-color: black;
+	padding: 0.07%;
+}
+
+#register{
+	float: right;
+	padding: 1.8% 1% 2% 1%;
+	font-size: 170%;
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	font-weight: bold;
+}
+
+#register:hover{
+	text-decoration: underline;
+}
+
+#connection{
+	float: right;
+	padding: 1.8% 1% 2% 1%;
+	font-size: 170%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#connection:hover{
+	text-decoration: underline;
+}
+
+#compte_user{
+	float: right;
+	padding: 1.8% 1% 2% 1%;
+	font-size: 170%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#compte_user:hover{
+	text-decoration: underline;
+}
+
+#bouton_deconnexion{
+	float: right;
+	padding: 1.8% 1% 2% 1%;
+	font-size: 170%;
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	font-weight: bold;
+}
+
+#bouton_deconnexion:hover{
+	text-decoration: underline;
+}
+
+#main_title{
+	display: inline-block;
+	color: white;
+	font-size: 300%;
+	margin-left: 1%;
+}
+
+#logo{
+	display: inline-block;
+	width: 3%;
+	margin-top: 0.95%;
+	margin-bottom: -0.85%;
+	margin-left: 1%;
+}
+
+
+/* ####################### */
+/* --- Page principale --- */
+/* ####################### */
+
+.conteneur h2{
+	font-size: 200%;
+	position: relative;
+	display: block;
+	margin-left: 5%;
+	margin-bottom: -4%;
+}
+
+.conteneur img{
+	position: relative;
+	display: block;
+	margin-left: 5%;
+	margin-top: 5%;
+	float: left;
+	width: 35%;
+}
+
+.conteneur area{
+	cursor: pointer;
+}
+
+#carte{
+	margin-top: 5%;
+}
+
+#menu_deroulant{
+	float: left;
+	margin-top: -1.3%;
+	margin-left: 2%;
+	width: 40%;
+	font-weight: normal;
+}
+
+#menus{
+	margin-top: 12.8%;
+	margin-left: 5%;
+	background-color: #e3e3e3;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+/* Menu des départements */
+#departements{
+	font-size: 120%;
+	padding-top: 5%;
+}
+
+/* Menu des villes */
+#villes{
+	font-size: 120%;
+}
+
+#get_meteo{
+	margin-top: 5%;
+}
+
+#options_affichage{
+	font-size: 120%;
+}
+
+#options_affichage input{
+	display: inline-block;
+}
+
+#options_affichage label{
+	display: inline-block;
+}
+
+#choix_preferences{
+	margin-top: 5%;
+	margin-bottom: -2%;
+}
+
+
+/* ######################## */
+/* --- Page de la météo --- */
+/* ######################## */
+
+/* Condition de la ville */
+#nom_ville{
+	margin-top: 3%;
+}
+
+#infos_ville{
+	font-weight: normal;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding-bottom: 1.5%;
+	background-color: #e3e3e3;
+}
+
+#infos_ville table{
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 4%;
+	font-size: 125%;
+}
+
+#infos_ville td{
+	padding-top: 1%;
+}
+
+#infos_ville img{
+	display: inline-block;
+	width: 15%;
+}
+
+.info{
+	font-weight: bold;
+}
+
+#error_ville{
+	font-size: 120%;
+	padding-top: 7%;
+	padding-left: 15%;
+	font-weight: bold;
+}
+
+/* Condition sur les autres jours */
+.jour{
+	margin-left: 5%;
+	margin-bottom: 2%;
+	width: 90%;
+	background-color: #e3e3e3;
+}
+
+.jour h2{
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.meteo{
+	width: 98%;
+	margin-top: 3%;
+	margin-left: 1.7%;
+	padding-bottom: 1%;
+}
+
+.heure{
+	font-size: 110%;
+	padding-bottom: 2%;
+}
+
+#heure_actuelle{
+	font-size: 120%;
+	padding-bottom: 2%;
+	font-weight: bold;
+}
+
+.temp{
+	margin-top: -10%;
+}
+
+
+/* ##################################### */
+/* --- Page de connexion/inscription --- */
+/* ##################################### */
+#espace_connexion{
+	background-color: #e8e8e8;
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+
+#titre_connexion{
+	color: white;
+	background-color: black;
+	font-size: 250%;
+	margin-bottom: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 35%;
+}
+
+#espace_connexion label{
+	display: block;
+	font-weight: bold;
+	font-size: 150%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+}
+
+.input{
+	display: block;
+	font-size: 120%;
+	border: none;
+	border-bottom: black 1px solid;
+	background-color: #e8e8e8;
+	margin-left: 2%;
+	width: 70%;
+}
+
+#password{
+	margin-bottom: 10%;
+}
+
+#bouton_ic{
+	margin-top: 5%;
+	margin-left: 35%;
+	padding: 1.5% 0 1.5% 0;
+	width: 30%;
+	font: bold 13px Arial;
+	background-color: black;
+	color: #fff;
+	border-radius: 2px;
+	border: none;
+}
+
+#bouton_ic:active{
+	background-color: #969595;
+}
+
+.error{
+	color: red;
+	margin-left: 2%;
+	margin-bottom: 10%;
+}
+
+.asterix{
+	font-weight: normal;
+}
+
+#infos_asterix{
+	margin-top: 10%;
+}
+
+
+/* ###################### */
+/* --- Page du compte --- */
+/* ###################### */
+#titre_pseudo{
+	display: inline-block;
+}
+
+#div_boutons_compte{
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+
+#bouton_parametres{
+	display: inline-block;
+	float: right;
+	margin-right: 3.2%;
+	margin-top: 1%;
+	width: 6%;
+	padding: 0.6% 0 0.6% 0;
+	background-color: black;
+	color: white;
+	border: none;
+	font: bold 13px Arial;
+}
+
+#bouton_parametres:active{
+	background-color: #969595;
+}
+
+#bouton_stats{
+	display: inline-block;
+	float: right;
+	margin-right: 1%;
+	margin-top: 1%;
+	width: 6%;
+	padding: 0.6% 0 0.6% 0;
+	background-color: black;
+	color: white;
+	border: none;
+	font: bold 13px Arial;
+}
+
+#bouton_stats:active{
+	background-color: #969595;
+}
+
+#trait_separateur{
+	width: 93.75%;
+	height: 2px;
+	background-color: black;
+	margin-left: 3%;
+}
+
+/* Partie des statistiques */
+#pieVisite{
+	margin-top: 5%;
+	margin-left: 10%;
+	display: inline-block;
+	width: 40%;
+}
+
+#pieComptes{
+	margin-top: 5%;
+	display: inline-block;
+	width: 40%;
+}
+
+/* Partie des paramètres */
+#Parametres{
+	display: flex;
+}
+
+#change_passwd{
+	display: inline-block;
+	background-color: #e8e8e8;
+	width: 20%;
+	margin-left: 22%;
+	margin-top: 5%;
+}
+
+#change_passwd h3{
+	text-align: center;
+	padding-top: 3%;
+}
+
+.label_change{
+	display: block;
+	margin-left: 6%;
+	margin-top: 10%;
+}
+
+.passwd_change{
+	display: block;
+	background-color: #e8e8e8;
+	width: 60%;
+	margin-left: 6%;
+	margin-top: 1%;
+	border: none;
+	border-bottom: black 1px solid;
+}
+
+#button_new_passwd{
+	margin-left: 37.5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	width: 25%;
+	padding: 1.5% 0 1.5% 0;
+	background-color: black;
+	color: white;
+	border: none;
+	font: bold 13px Arial;
+}
+
+#erreur_changement{
+	color: red;
+	margin-left: 6%;
+	margin-top: 7%;
+}
+
+#button_new_passwd:active{
+	background-color: #969595;
+}
+
+#reinit_preferences{
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 5%;
+	height:	10%;
+	background-color: #e8e8e8;
+	padding: 1% 2% 1% 2%;
+}
+
+#bouton_preferences{
+	margin-left: 20%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	width: 55%;
+	padding: 3% 9% 3% 9%;
+	background-color: black;
+	color: white;
+	border: none;
+	font: bold 13px Arial;
+}
+
+#bouton_preferences:active{
+	background-color: #969595;
+}
